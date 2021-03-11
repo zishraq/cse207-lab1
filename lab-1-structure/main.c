@@ -23,7 +23,7 @@ int main(void) {
     printf("Input point B: ");
     scanf("%f %f", &x2, &y2);
 
-    coordinate A = {x1, x2};
+    coordinate A = {x1, y1};
     coordinate B = {x2, y2};
 
     distance = calculate_distance(&A, &B);
