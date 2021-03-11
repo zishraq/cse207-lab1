@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1615464892 source:/home/quantier-user/cse207/lab1-5/main.c
+	<stdio.h>
+	<stdlib.h>
+
