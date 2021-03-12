@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 void swap(int *num1, int *num2, int *num3) {
-    int temp, temp2;
+    int temp;
     temp = *num2;
     *num2 = *num1;
-
-    temp2 = *num3;
+    *num1 = *num3;
     *num3 = temp;
-
-    *num1 = temp2;
 }
 
 int main(void) {
