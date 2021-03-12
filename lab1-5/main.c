@@ -11,7 +11,7 @@ int main() {
     p_arr = (int *) malloc(n * sizeof(int));
 
     if (n > 10) {
-        printf("Array size is more than 10");
+        printf("Array size is more than 10\n");
         return EXIT_FAILURE;
     }
 
