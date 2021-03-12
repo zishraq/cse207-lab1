@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main() {
     int n, sum = 0;
     int *p_arr;
 
@@ -24,7 +24,7 @@ int main(void) {
         sum += *(p_arr + i);
     }
 
-    printf("The sum of array is: %d", sum);
+    printf("The sum of array is: %d\n", sum);
 
     return EXIT_SUCCESS;
 }
