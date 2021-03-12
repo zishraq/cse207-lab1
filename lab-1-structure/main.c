@@ -12,7 +12,7 @@ float calculate_distance(coordinate * point1, coordinate * point2) {
     return result;
 }
 
-int main(void) {
+int main() {
     float x1, y1;
     float x2, y2;
     float distance;
@@ -28,7 +28,7 @@ int main(void) {
 
     distance = calculate_distance(&A, &B);
 
-    printf("Distance is: %f", distance);
+    printf("Distance is: %f\n", distance);
 
     return 0;
 }
