@@ -7,7 +7,7 @@ int main(void) {
     printf("Input a string: ");
     fgets(text, 100, stdin);
 
-    for (int i = 0; text[i] != '\n'; i++) {
+    for (int i = 0; *(text + i) != '\n'; i++) {
         if (*(text + i) == 'a' || *(text + i) == 'e' || *(text + i) == 'i' || *(text + i) == 'o' || *(text + i) == 'u') {
             vowels++;
         } else {
