@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int num1, num2, sum;
 
     int *p_num1, *p_num2;
@@ -15,9 +15,9 @@ int main(void) {
     scanf("%d", p_num2);
 
     if (*p_num1 > *p_num2) {
-        printf("%d is the maximum number.", *p_num1);
+        printf("%d is the maximum number.\n", *p_num1);
     } else {
-        printf("%d is the maximum number.", *p_num2);
+        printf("%d is the maximum number.\n", *p_num2);
     }
 
     return 0;
