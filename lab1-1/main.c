@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int num1, num2, sum;
 
     int *p_num1, *p_num2;
@@ -16,7 +16,7 @@ int main(void) {
 
     sum = *p_num1 + *p_num2;
 
-    printf("The sum of the entered numbers is : %d", sum);
+    printf("The sum of the entered numbers is : %d\n", sum);
 
     return 0;
 }
