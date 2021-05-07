@@ -18,9 +18,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("element %d: ", i + 1);
         scanf("%d", &*(p_arr + i));
-    }
-
-    for (int i = 0; i < n; i++) {
         sum += *(p_arr + i);
     }
 
